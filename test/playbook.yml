@@ -1,5 +1,5 @@
 ---
-- hosts: 127.0.0.1
-  connection: local
+- hosts: client1
+  connection: ssh
   tasks:
   - debug: msg="it works!"
